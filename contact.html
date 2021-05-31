@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <link
+      rel="shortcut icon"
+      href="/favicon/hotelFavicon.png"
+      type="image/x-icon"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="/css/mobile.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contact-Us</title>
+  </head>
+  <body>
+    <header>
+      <nav id="nav-bar">
+        <div class="container">
+          <a href="index.html"
+            ><img id="logo" src="./images/taj-mahal (1).png" alt="hotel-logo"
+          /></a>
+          <!-- <h1 id="logo"><a href="index.html">Taj</a></h1> -->
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="current" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="contact" class="py3">
+      <div class="container">
+        <div class="contact-form">
+          <h1 class="l-heading">
+            <span class="primary-text">Contact</span> Us
+          </h1>
+          <p>Please fill out the form below to Contact us!</p>
+          <form action="" method="post">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter-Name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="xyz@mail.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class=".textarea" name="message"></textarea>
+            </div>
+
+            <button class="button" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-info" class="bg-dark">
+      <div class="container">
+        <div class="box">
+          <i class="fas fa-map-marker-alt fa-3x"></i>
+          <h3>Location</h3>
+          <p>Plot No-32 , Somewhere Near Mars!</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-mobile fa-3x"></i>
+          <h3>Phone-Number</h3>
+          <p>(+91) 68465446931</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-envelope fa-3x"></i>
+          <h3>Email Address</h3>
+          <p>dracares@gmail.com</p>
+        </div>
+      </div>
+    </section>
+    <div class="clr"></div>
+
+    <footer id="main-footer" class="bg-light">
+      <p>Arsh Ansari &copy; 2021 , All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
